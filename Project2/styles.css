@@ -1,0 +1,92 @@
+/* Global Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #ff7e5f, #feb47b); */
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+  }
+  
+  .stopwatch-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* color: #ff7e5f; */
+    color:#1e90ff;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  #start-pause {
+    background: #4caf50;
+  }
+  
+  #reset {
+    background: #f44336;
+  }
+  
+  #lap {
+    background: #2196f3;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .laps {
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .laps h2 {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  #lap-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lap-list li {
+    padding: 5px 10px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border-radius: 5px;
+    color: #555;
+  }
+  
